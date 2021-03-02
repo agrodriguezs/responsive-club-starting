@@ -1,10 +1,10 @@
-# Sitio web de Responsive Club
+# Responsive Club website
 
-## Objetivos del proyecto
+## Project objectives
 
-En este proyecto, crear su propia página de grupo del club que responderá dinámicamente a medida que ajuste el tamaño de la pantalla.
+In this project, you create your own club group page that will respond dynamically as you adjust the screen size.
 
-## Requerimientos
+## Requirements
 
-Crear una página web para un club local
-Debe demostrar muchas de las herramientas de diseño receptivo.
+Create a website for a local club
+You must demonstrate many of the responsive design tools.
