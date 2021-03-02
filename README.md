@@ -8,3 +8,5 @@ In this project, you create your own club group page that will respond dynamical
 
 Create a website for a local club
 You must demonstrate many of the responsive design tools.
+
+https://agrodriguezs.github.io/responsive-club-starting/.

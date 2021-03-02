@@ -75,26 +75,34 @@ header ul li a{
     align-items: center;
     padding: 10px;
 }
-#logo h1 {
-    display: inline;
-    Font-Family: 'Merriweather', Serif;
-    Font-Size: 3rem;
-}
-#logo img {
-    height: 80px;
-}
 @media only screen and (max-width: 900px) {
-    #logo h1 {
+    header ul li a{
+        font-size: 1.2rem;
+        margin-left: 10px;
 
-        Font-Size: 2rem;
+    }
+    header img {
+        height: 60px;
+    }
+    header {
+        height: 80px;
+    }
+}
+@media only screen and (max-width: 600px) {
+   header img {
+        height: 50px;
     }
     header ul li a{
-        font-size: 1rem;
+        font-size: 0.8rem;
+        margin-left: 10px;
 
     }
     header ul li {
         margin: 5px;
         list-style: none;
+    }
+    header {
+        height: 70px;
     }
 }
 /* main */
@@ -110,6 +118,9 @@ section   {
 #aboutus, #aboutus h2 {
     color: #ffffff;
     background-color: #9e9d79;
+}
+#aboutus p {
+    padding: 20px 0;
 }
 
 #ourpets {
@@ -189,6 +200,36 @@ section   {
     margin: 20px;
     height: auto;
     
+}
+@media only screen and (max-width: 900px) {
+    section   {
+        top: 80px;
+        padding: 0 20px 10px 30px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    section   {
+        top: 80px;
+        padding: 0 20px 10px 30px;
+    }
+    #ourpets ul li {
+        margin: 5px 0;
+        padding: 0;
+    }
+    #ourpets ul li img {
+        width: 100%;
+        height: auto;
+
+    }
+    #ourpets li h3 {
+        align-self: center;
+        font-weight: bold;
+        color: #113439;
+    }
+    #contactus img {
+        display: none;
+        
+    }
 }
 /* footer */
 footer      {
